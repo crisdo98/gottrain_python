@@ -1,0 +1,10 @@
+{
+  "tablename": "promotions",
+  "landing_schema": "atm_landing_refdata",
+  "staging_schema": "reference_stg",
+  "refdata_schema": "reference",
+  "source_key": "",
+  "type_key": "['PromotionList']['Promotion']",
+  "refdata_url": "https://opendata.nationalrail.co.uk/api/staticfeeds/4.0/promotions-publics",
+  "output_path": "C:\\Users\\Chris Solimo\\PycharmProjects\\gottrain\\venv\\output\\"
+}

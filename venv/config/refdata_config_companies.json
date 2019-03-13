@@ -1,0 +1,10 @@
+{
+  "tablename": "companies",
+  "landing_schema": "atm_landing_refdata",
+  "staging_schema": "reference_stg",
+  "refdata_schema": "reference",
+  "source_key": "atoccode",
+  "type_key": "['TrainOperatingCompanyList']['TrainOperatingCompany']",
+  "refdata_url": "https://opendata.nationalrail.co.uk/api/staticfeeds/4.0/tocs",
+  "output_path": "C:\\Users\\Chris Solimo\\PycharmProjects\\gottrain\\venv\\output\\"
+}

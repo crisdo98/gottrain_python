@@ -1,0 +1,18 @@
+{
+  "database": {
+    "username": "postgres",
+    "encoded_password": "<YOUR_BASE64_ENCODED_POSTGRES_PASSWORD>",
+    "host": "localhost",
+    "database_name": "postgres",
+    "port": "5432"
+  },
+  "rest_darwin": {
+    "username": "<YOUR_USER_EMAIL>",
+    "encoded_password": "<YOUR_BASE64_ENCODED_PASSWORD>",
+    "auth_url": "https://opendata.nationalrail.co.uk/authenticate"
+  },
+  "rest_trust": {
+    "username": "<YOUR_USER_EMAIL>",
+    "encoded_password": "<YOUR_BASE64_ENCODED_PASSWORD>"
+  }
+}

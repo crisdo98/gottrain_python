@@ -1,0 +1,13 @@
+logs
+Scripts
+pyvenv.cfg
+get-pip.py
+connection_config.json
+Include
+Lib
+output
+src/archive
+pip-selfcheck.json
+.Idea
+*.pyc
+__init__.py

@@ -1,0 +1,10 @@
+{
+  "tablename": "national_service_indicator",
+  "landing_schema": "atm_landing_refdata",
+  "staging_schema": "reference_stg",
+  "refdata_schema": "reference",
+  "source_key": "",
+  "type_key": "['NSI']['TOC']",
+  "refdata_url": "https://opendata.nationalrail.co.uk/api/staticfeeds/4.0/serviceIndicators",
+  "output_path": "C:\\Users\\Chris Solimo\\PycharmProjects\\gottrain\\venv\\output\\"
+}

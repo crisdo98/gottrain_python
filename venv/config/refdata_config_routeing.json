@@ -1,0 +1,10 @@
+{
+  "tablename": "routeing",
+  "landing_schema": "atm_landing_refdata",
+  "staging_schema": "reference_stg",
+  "refdata_schema": "reference",
+  "source_key": "",
+  "type_key": "['']['']",
+  "refdata_url": "https://opendata.nationalrail.co.uk/api/staticfeeds/2.0/routeing",
+  "output_path": "C:\\Users\\Chris Solimo\\PycharmProjects\\gottrain\\venv\\output\\"
+}
