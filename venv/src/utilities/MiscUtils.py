@@ -13,5 +13,9 @@ class MiscUtils:
         return str(datetime.datetime.now()).split('.')[0]
 
     @staticmethod
-    def get_datetime():
+    def get_datetime_now():
         return datetime.datetime.today().strftime('%Y%m%d%H%M')
+
+    @staticmethod
+    def get_datetime(unix_time):
+        return datetime.datetime.utcfromtimestamp(int(unix_time) / 1000)
