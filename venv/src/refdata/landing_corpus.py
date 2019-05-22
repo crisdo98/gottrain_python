@@ -51,7 +51,7 @@ r = requests.get(refdata_url, auth=(username, PasswordUtils.decode_password(enco
 if r.status_code != requests.codes.ok:
     raise Exception("Failed to login: %s" % r.text)
 
-filename = tablename + "_" + MiscUtils.get_datetime()
+filename = tablename + "_" + MiscUtils.get_datetime_now()
 # FileUtils.write_to_file(output_path, filename, r.content, encoding_type=None, suffix='gzip', write_type='wb')
 open(output_path + filename + ".gzip", 'wb').write(r.content)
 

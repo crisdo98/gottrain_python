@@ -29,7 +29,7 @@ def get_refdata_from_source(rest_username,
     content = rs.requests_get(refdata_url, headers)
     data = content.decode('windows-1252', errors='ignore')
 
-    filename = database_tablename + "_" + MiscUtils.get_datetime()
+    filename = database_tablename + "_" + MiscUtils.get_datetime_now()
 
     if writefile:
         # save as xml
