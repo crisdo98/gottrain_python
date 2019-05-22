@@ -3,7 +3,7 @@
   "landing_schema": "atm_landing_refdata",
   "staging_schema": "reference_stg",
   "refdata_schema": "reference",
-  "source_key": "",
+  "source_key": "crscode",
   "type_key": "['StationList']['Station']",
   "refdata_url": "https://opendata.nationalrail.co.uk/api/staticfeeds/4.0/stations",
   "output_path": "C:\\Users\\Chris Solimo\\PycharmProjects\\gottrain\\venv\\output\\"
