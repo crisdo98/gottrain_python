@@ -6,5 +6,5 @@
   "source_key": "promoidentifier",
   "type_key": "['PromotionList']['Promotion']",
   "refdata_url": "https://opendata.nationalrail.co.uk/api/staticfeeds/4.0/promotions-publics",
-  "output_path": "C:\\Users\\Chris Solimo\\PycharmProjects\\gottrain\\venv\\output\\"
+  "output_path": "C:\\Users\\Chris Solimo\\PycharmProjects\\Personal\\gottrain_python\\venv\\output\\"
 }

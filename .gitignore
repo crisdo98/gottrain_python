@@ -1,5 +1,4 @@
 logs
-Scripts
 pyvenv.cfg
 get-pip.py
 connection_config.json
@@ -11,3 +10,6 @@ pip-selfcheck.json
 .Idea
 *.pyc
 __init__.py
+connection_config.json
+Pipfile.lock
+Pipfile

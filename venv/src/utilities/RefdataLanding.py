@@ -22,11 +22,15 @@ def get_refdata_from_source(rest_username,
                             writefile=False):
     rest_password = PasswordUtils.decode_password(rest_encoded_password)
     rs = RestService(rest_username, rest_password, auth_url)
-    headers = rs.get_token_header()
-
+    try:
+        headers = rs.get_token_header()
+        content = rs.requests_get(refdata_url, headers)
+    except BaseException:
+        logger.error("Unable to get a connection to the Network Rail API... check username/password")
+        logger.error("Exiting application")
+        exit(1)
     logger.info(database_tablename + " url: " + refdata_url)
 
-    content = rs.requests_get(refdata_url, headers)
     data = content.decode('windows-1252', errors='ignore')
 
     filename = database_tablename + "_" + MiscUtils.get_datetime_now()

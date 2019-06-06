@@ -12,6 +12,7 @@ QUEUE1 = '/topic/TD_ALL_SIG_AREA'
 
 if __name__ == '__main__':
     client = Stomp(CONFIG)
+
     client._config.login = "chris.solimo@gmail.com"
     client._config.passcode = "ChangeMe123@"
     client.connect()

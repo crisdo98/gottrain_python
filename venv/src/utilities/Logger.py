@@ -5,7 +5,7 @@ class Logger:
 
     def __init__(self, level="DEBUG",
                  file_name="gottrain",
-                 log_path="C:\\Users\\Chris Solimo\\PycharmProjects\\gottrain\\venv\\logs",
+                 log_path="../../logs",
                  logger_name="gottrain_logger"):
         log_formatter = logging.Formatter("%(asctime)s [%(threadName)-12.12s] [%(levelname)-5.5s]  %(message)s")
         self.logger = logging.getLogger(logger_name)
