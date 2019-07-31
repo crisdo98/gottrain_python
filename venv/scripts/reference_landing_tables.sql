@@ -1,6 +1,6 @@
--- DROP table atm_landing_refdata.ticket_restrictions
+-- DROP table refdata_landing.ticket_restrictions
 
-create table atm_landing_refdata.ticket_restrictions
+create table refdata_landing.ticket_restrictions
 (
 	applicabledays text,
 	easement text,
@@ -19,9 +19,9 @@ create table atm_landing_refdata.ticket_restrictions
 	ticketrestrictionidentifier text
 );
 
--- DROP table atm_landing_refdata.ticket_types
+-- DROP table refdata_landing.ticket_types
 
-create table atm_landing_refdata.ticket_types
+create table refdata_landing.ticket_types
 (
 	applicabletocs_excludedtocs_tocref text,
 	applicabletocs_includedtocs_tocref text,
@@ -56,9 +56,9 @@ create table atm_landing_refdata.ticket_types
 	validity_timereturn text
 );
 
--- DROP table atm_landing_refdata.companies
+-- DROP table refdata_landing.companies
 
-create table atm_landing_refdata.companies
+create table refdata_landing.companies
 (
 	atoccode text,
 	atocmember boolean,
@@ -120,9 +120,9 @@ create table atm_landing_refdata.companies
 	ticketfares_telesales_contdetails_url text
 );
 
--- DROP table atm_landing_refdata.corpus
+-- DROP table refdata_landing.corpus
 
-create table atm_landing_refdata.corpus
+create table refdata_landing.corpus
 (
 	alpha3 character varying (100),
 	nlc character varying (100),
@@ -133,9 +133,9 @@ create table atm_landing_refdata.corpus
 	uic character varying (100)
 );
 
--- DROP table atm_landing_refdata.incidents
+-- DROP table refdata_landing.incidents
 
-create table atm_landing_refdata.incidents
+create table refdata_landing.incidents
 (
 	affects_operators_affectedoperator text,
 	affects_operators_affectedoperator_name text,
@@ -160,9 +160,9 @@ create table atm_landing_refdata.incidents
 	versionincident text
 );
 
--- DROP table atm_landing_refdata.national_service_indicator
+-- DROP table refdata_landing.national_service_indicator
 
-create table atm_landing_refdata.national_service_indicator
+create table refdata_landing.national_service_indicator
 (
 	additionalinfo text,
 	servicegroup text,
@@ -178,9 +178,9 @@ create table atm_landing_refdata.national_service_indicator
 	twitteraccount text
 );
 
--- DROP table atm_landing_refdata.promotions
+-- DROP table refdata_landing.promotions
 
-create table atm_landing_refdata.promotions
+create table refdata_landing.promotions
 (
 	adultfares_details text,
 	adultfares_price text,
@@ -259,9 +259,9 @@ create table atm_landing_refdata.promotions
 	viewableby text
 );
 
--- DROP TABLE atm_landing_refdata.stations
+-- DROP TABLE refdata_landing.stations
 
-CREATE TABLE atm_landing_refdata.stations
+CREATE TABLE refdata_landing.stations
 (
 	access_accessiblepublicphones_annotation_note text,
 	access_accessibletaxis_annotation_note text,

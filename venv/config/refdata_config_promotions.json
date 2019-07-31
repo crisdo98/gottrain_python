@@ -1,10 +1,10 @@
 {
   "tablename": "promotions",
-  "landing_schema": "atm_landing_refdata",
-  "staging_schema": "reference_stg",
+  "landing_schema": "refdata_landing",
+  "staging_schema": "refdata_stg",
   "refdata_schema": "reference",
   "source_key": "promoidentifier",
   "type_key": "['PromotionList']['Promotion']",
   "refdata_url": "https://opendata.nationalrail.co.uk/api/staticfeeds/4.0/promotions-publics",
-  "output_path": "C:\\Users\\Chris Solimo\\PycharmProjects\\Personal\\gottrain_python\\venv\\output\\"
+  "output_path": "/Users/chrissolimo/PycharmProjects/personal/gottrain_python/venv/output/"
 }

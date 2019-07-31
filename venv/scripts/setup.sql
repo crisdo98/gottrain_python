@@ -1,7 +1,6 @@
 -- create schemas
-create schema atm_landing_refdata;
-create schema atm_staging_refdata;
-create schema atm_refdata;
+create schema refdata_landing;
+create schema refdata_stg;
 create schema reference;
 
 -- create job sequence

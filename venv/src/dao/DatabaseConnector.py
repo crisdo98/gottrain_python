@@ -65,8 +65,14 @@ class DatabaseConnector:
                 except psycopg2.Error:
                     self.logger.error("Unable to execute select statement")
                 self.conn.commit()
-        except (Exception, psycopg2.Error) as error:
-            self.logger.error("Error while connecting to PostgreSQL", error)
+        except (ConnectionRefusedError, psycopg2.Error) as error:
+            self.logger.error("Connection Refused to PostgreSQL")
+            self.logger.error("Exiting application.")
+            exit(1)
+        except BaseException:
+            self.logger.error("Error connecting to PostgreSQL database")
+            self.logger.error("Exiting application")
+            exit(2)
         finally:
             # closing database connection.
             if self.conn:

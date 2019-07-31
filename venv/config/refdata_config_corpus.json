@@ -5,5 +5,5 @@
   "refdata_schema": "reference",
   "source_key": "nlc",
   "refdata_url": "https://datafeeds.networkrail.co.uk/ntrod/SupportingFileAuthenticate?type=CORPUS",
-  "output_path": "C:\\Users\\Chris Solimo\\PycharmProjects\\Personal\\gottrain_python\\venv\\output\\"
+  "output_path": "/Users/chrissolimo/PycharmProjects/personal/gottrain_python/venv/output/"
 }

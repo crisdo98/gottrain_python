@@ -1,10 +1,10 @@
 {
   "tablename": "fares",
-  "landing_schema": "atm_landing_refdata",
-  "staging_schema": "reference_stg",
+  "landing_schema": "refdata_landing",
+  "staging_schema": "refdata_stg",
   "refdata_schema": "reference",
   "source_key": "",
   "type_key": "['']['']",
   "refdata_url": "https://opendata.nationalrail.co.uk/api/staticfeeds/2.0/fares",
-  "output_path": "C:\\Users\\Chris Solimo\\PycharmProjects\\gottrain\\venv\\output\\"
+  "output_path": "/Users/chrissolimo/PycharmProjects/personal/gottrain_python/venv/output/"
 }

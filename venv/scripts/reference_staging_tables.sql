@@ -1,6 +1,6 @@
--- DROP table reference_stg.ticket_types
+-- DROP table refdata_stg.ticket_types
 
-create table reference_stg.ticket_types
+create table refdata_stg.ticket_types
 (
 	applicabletocs_excludedtocs_tocref text,
 	applicabletocs_includedtocs_tocref text,
@@ -37,9 +37,9 @@ create table reference_stg.ticket_types
 	last_update_date timestamp with time zone
 );
 
--- DROP table reference_stg.companies
+-- DROP table refdata_stg.companies
 
-create table reference_stg.companies
+create table refdata_stg.companies
 (
 	atoccode text,
 	atocmember boolean,
@@ -103,9 +103,9 @@ create table reference_stg.companies
 	last_update_date timestamp with time zone
 );
 
--- DROP table reference_stg.corpus
+-- DROP table refdata_stg.corpus
 
-create table reference_stg.corpus
+create table refdata_stg.corpus
 (
 	alpha3 character varying (100),
 	nlc character varying (100),
@@ -118,9 +118,9 @@ create table reference_stg.corpus
 	last_update_date timestamp with time zone
 );
 
--- DROP table reference_stg.incidents
+-- DROP table refdata_stg.incidents
 
-create table reference_stg.incidents
+create table refdata_stg.incidents
 (
 	affects_operators_affectedoperator text,
 	affects_operators_affectedoperator_name text,
@@ -147,9 +147,9 @@ create table reference_stg.incidents
 	last_update_date timestamp with time zone
 );
 
--- DROP table reference_stg.national_service_indicator
+-- DROP table refdata_stg.national_service_indicator
 
-create table reference_stg.national_service_indicator
+create table refdata_stg.national_service_indicator
 (
 	additionalinfo text,
 	servicegroup text,
@@ -167,9 +167,9 @@ create table reference_stg.national_service_indicator
 	last_update_date timestamp with time zone
 );
 
--- DROP table reference_stg.promotions
+-- DROP table refdata_stg.promotions
 
-create table reference_stg.promotions
+create table refdata_stg.promotions
 (
 	adultfares_details text,
 	adultfares_price text,
@@ -250,9 +250,9 @@ create table reference_stg.promotions
 	last_update_date timestamp with time zone
 );
 
--- DROP TABLE reference_stg.stations
+-- DROP TABLE refdata_stg.stations
 
-CREATE TABLE reference_stg.stations
+CREATE TABLE refdata_stg.stations
 (
 	access_accessiblepublicphones_annotation_note text,
 	access_accessibletaxis_annotation_note text,
@@ -497,9 +497,9 @@ CREATE TABLE reference_stg.stations
 	last_update_date timestamp with time zone
 );
 
--- DROP table reference_stg.ticket_restrictions
+-- DROP table refdata_stg.ticket_restrictions
 
-create table reference_stg.ticket_restrictions
+create table refdata_stg.ticket_restrictions
 (
 	applicabledays text,
 	easement text,
