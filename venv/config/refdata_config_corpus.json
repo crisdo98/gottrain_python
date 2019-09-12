@@ -1,7 +1,7 @@
 {
   "tablename": "corpus",
-  "landing_schema": "atm_landing_refdata",
-  "staging_schema": "reference_stg",
+  "landing_schema": "refdata_landing",
+  "staging_schema": "refdata_stg",
   "refdata_schema": "reference",
   "source_key": "nlc",
   "refdata_url": "https://datafeeds.networkrail.co.uk/ntrod/SupportingFileAuthenticate?type=CORPUS",
